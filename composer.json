@@ -1,0 +1,24 @@
+{
+    "name": "twohill/silverstripe-elemental-bioblock",
+    "description": "Provides an elemental block for personal bios",
+    "type": "silverstripe-vendormodule",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "silverstripe",
+        "elemental",
+        "content blocks"
+    ],
+    "authors": [
+        {
+            "name": "Al Twohill",
+            "email": "al@twohill.nz"
+        }
+    ],
+    "require": {
+        "silverstripe/vendor-plugin": "^1.0",
+        "silverstripe/elemental-fileblock": "^1",
+        "silverstripe/cms": "^4.2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

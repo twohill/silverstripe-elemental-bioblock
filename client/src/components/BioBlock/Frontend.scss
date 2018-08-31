@@ -1,0 +1,30 @@
+// Some standard default styles for the frontend of a BannerBlock
+
+.bio-element__image {
+  img {
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 100%;
+  }
+}
+
+.bio-element__role {
+  font-weight: bold;
+}
+
+.bio-element__content {
+  width: 90%;
+}
+
+.bio-element__call-to-action {
+  padding: 10px;
+  background: red;
+  color: white !important;
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+
+  &:hover {
+    border: none !important;
+  }
+}

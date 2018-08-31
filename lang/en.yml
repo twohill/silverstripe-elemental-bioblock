@@ -1,0 +1,15 @@
+en:
+  Twohill\ElementalBio\Block\BioBlock:
+    BlockType: Bio
+    PLURALNAME: bios
+    PLURALS:
+      one: A bio
+      other: '{count} bios'
+
+    SINGULARNAME: bio
+  Twohill\ElementalBio\Form\BlockLinkField:
+    Description: 'Link description'
+    Empty: Empty
+    LinkText: 'Link text'
+    SelectPage: 'Select a page'
+    TargetBlank: 'Open in a new window/tab'

@@ -1,0 +1,38 @@
+.form__field-holder .block-link-field {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+
+  &:hover {
+    background-color: $table-hover-bg;
+    cursor: pointer;
+  }
+}
+
+.block-link-field__icon::before {
+  content: "2"; // font-icon-link
+  font-family: silverstripe;
+  font-size: $font-size-lg * 1.2;
+  left: $btn-icon-spacing;
+  margin-right: $btn-icon-spacing * 3;
+  position: relative;
+}
+
+.block-link-field__content--message {
+  font-style: italic;
+}
+
+.block-link-field__link {
+  color: $link-color;
+}
+
+// xs devices only
+.block-link-field__title {
+  margin-right: $spacer;
+}
+
+// sm devices and up
+@media (min-width: map-get($grid-breakpoints, sm)) {
+  .block-link-field__title {
+    margin-right: ($spacer * 5);
+  }
+}

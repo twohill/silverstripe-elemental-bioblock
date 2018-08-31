@@ -1,0 +1,10 @@
+---
+Name: elementalbannerblockconfig
+---
+SilverStripe\Core\Injector\Injector:
+  Link:
+    class: Twohill\ElementalBioBlock\ORM\FieldType\DBLink
+
+DNADesign\Elemental\Controllers\ElementController:
+  default_styles:
+    - twohill/elemental-bioblock:client/dist/styles/frontend-default.css

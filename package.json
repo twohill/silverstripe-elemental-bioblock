@@ -1,0 +1,52 @@
+{
+    "name": "twohill-elemental-bioblock",
+    "version": "1.0.0",
+    "description": "A collection of CMS blocks for the silverstripe-elemental module",
+    "scripts": {
+        "build": "yarn && cross-env NODE_ENV=production webpack -p --bail --progress",
+        "watch": "yarn && cross-env NODE_ENV=development webpack --watch --progress",
+        "css": "cross-env WEBPACK_CHILD=css npm run build",
+        "lint": "eslint client/src; sass-lint -v"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/twohill/silverstripe-elemental-bioblock.git"
+    },
+    "keywords": [
+        "silverstripe",
+        "elemental",
+        "content blocks"
+    ],
+    "author": "al@twohill.nz",
+    "license": "BSD-3-Clause",
+    "bugs": {
+        "url": "https://github.com/twohill/silverstripe-elemental-bioblock/issues"
+    },
+    "homepage": "https://github.com/twohill/silverstripe-elemental-bioblock#readme",
+    "dependencies": {
+        "classnames": "^2.2.5",
+        "jquery": "^3.2.1",
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0"
+    },
+    "devDependencies": {
+        "@silverstripe/webpack-config": "^0.4.0",
+        "babel-core": "^6.24.1",
+        "babel-loader": "^7.0.0",
+        "babel-preset-env": "^1.6.0",
+        "babel-preset-react": "^6.24.1",
+        "cross-env": "^5.2.0",
+        "css-loader": "^0.28.1",
+        "eslint": "^4.6.1",
+        "eslint-config-airbnb": "^15.1.0",
+        "eslint-config-airbnb-base": "^12.0.0",
+        "eslint-loader": "^1.7.1",
+        "eslint-plugin-import": "^2.7.0",
+        "eslint-plugin-jsx-a11y": "^5.1.1",
+        "eslint-plugin-react": "^7.3.0",
+        "webpack": "^2.6.1"
+    },
+    "engines": {
+        "node": "^10.x"
+    }
+}
