@@ -30,7 +30,7 @@
         "react-dom": "^16.0.0"
     },
     "devDependencies": {
-        "@silverstripe/webpack-config": "^0.4.0",
+        "@silverstripe/webpack-config": "^1.1.0",
         "babel-core": "^6.24.1",
         "babel-loader": "^7.0.0",
         "babel-preset-env": "^1.6.0",
